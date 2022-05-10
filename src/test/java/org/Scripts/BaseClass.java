@@ -79,9 +79,6 @@ public class BaseClass {
 		new TouchAction((PerformsTouchActions) driver2).press(PointOption.point(ScreenWidthStart, ScreenHeightStart))
 				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(PointOption.point(ScreenWidthEnd, ScreenHeightEnd))
 				.release().perform();
-	} 
-	private void testSample() {
-		System.out.println("Test Sample");
 	}
 	private void implicitlyWait() {
 		int a = 10;
