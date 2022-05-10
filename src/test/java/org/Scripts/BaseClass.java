@@ -84,8 +84,8 @@ public class BaseClass {
 		System.out.println("Test Sample");
 	}
 	private void implicitlyWait() {
-		// TODO Auto-generated method stub
-
+		int a = 10;
+		System.out.println(a);
 	}
 }
 
