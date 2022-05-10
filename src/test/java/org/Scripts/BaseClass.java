@@ -80,5 +80,9 @@ public class BaseClass {
 				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(PointOption.point(ScreenWidthEnd, ScreenHeightEnd))
 				.release().perform();
 	}
+	private void implicitlyWait() {
+		// TODO Auto-generated method stub
+
+	}
 }
 
